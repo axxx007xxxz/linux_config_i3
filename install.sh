@@ -8,6 +8,6 @@ fi
 cp i3/config ~/.config/i3/config
 
 # Reload current configurations
-i3-msg -q reload
+i3-msg -q restart
 
 echo "Done."
