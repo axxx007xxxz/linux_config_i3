@@ -9,6 +9,13 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+## Setup input devices
+# Touchpad (edge scrolling, accel speed, left handed, tap to click)
+exec --no-startup-id "xinput set-prop 16 308 {0, 1, 0}; xinput set-prop 16 314 -0.063830; xinput set-prop 16 319 1; xinput set-prop 16 323 1"
+# Mouse (accel speed, left handed)
+exec --no-startup-id "xinput set-prop 10 314 -0.809917; xinput set-prop 10 319 1"
+## END setup input devices
+
 set $mod Mod4
 set $alt Mod1
 
