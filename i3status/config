@@ -9,8 +9,8 @@
 general {
         colors = true
         color_good = "#49FF00"
+        color_degraded = "#FF6600"
         color_bad = "#FF0000"
-        color_degraded = "#55858E"
         interval = 1
 }
 
