@@ -44,6 +44,10 @@ exec --no-startup-id nm-applet
 # MATE sound control system tray
 exec --no-startup-id mate-volume-control-status-icon
 
+# Use light to adjust brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5
+bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
