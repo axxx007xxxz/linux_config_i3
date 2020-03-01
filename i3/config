@@ -50,6 +50,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+t exec mate-terminal
 
+# Start a file manager
+bindsym $mod+Home exec caja
+
 # Start a browser
 bindsym $mod+b exec firefox
 
