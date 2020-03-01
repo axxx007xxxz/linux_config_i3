@@ -65,6 +65,7 @@ bindsym $mod+t exec mate-terminal
 bindsym $mod+Home exec caja
 
 # Start a browser
+bindsym XF86HomePage exec firefox
 bindsym $mod+b exec firefox
 
 # kill focused window
