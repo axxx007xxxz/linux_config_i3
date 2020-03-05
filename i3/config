@@ -67,6 +67,7 @@ bindsym $mod+Home exec caja
 # Start a browser
 bindsym XF86HomePage exec firefox
 bindsym $mod+b exec firefox
+bindsym $mod+$alt+b exec firefox --private-window
 
 # kill focused window
 bindsym Control+q kill
