@@ -1,6 +1,6 @@
 dmenu
-feh
-light
 i3
 i3lock
 i3status
+light
+playerctl
