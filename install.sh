@@ -8,10 +8,10 @@ fi
 
 
 # Make the directories if needed
-if [[ ! -d "~/.config/i3" ]]; then
+if [[ ! -d ~/.config/i3 ]]; then
 	mkdir ~/.config/i3
 fi
-if [[ ! -d "~/.config/i3status" ]]; then
+if [[ ! -d ~/.config/i3status ]]; then
 	mkdir ~/.config/i3status
 fi
 
